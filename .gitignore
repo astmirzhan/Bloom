@@ -1,0 +1,43 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Xcode and Swift Package Manager
+.build/
+.swiftpm/
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+*.xcscmblueprint
+*.moved-aside
+
+# Build output (Makefile builds go to ~/Library/Caches/Converter, these are fallbacks)
+*.app
+*.dmg
+*.ipa
+*.dSYM/
+*.dSYM.zip
+out/
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*~
+
+# Secrets and local environment
+.env
+.env.*
+*.p12
+*.cer
+*.mobileprovision
+*.keychain
+
+# AI tools and local knowledge graph
+.claude/
+CLAUDE.local.md
+graphify-out/
