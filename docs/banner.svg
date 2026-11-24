@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="520" viewBox="0 0 1280 520" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1a33"/>
+      <stop offset="0.55" stop-color="#14325c"/>
+      <stop offset="1" stop-color="#2b6fb3"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7cc4ff" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#7cc4ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.10"/>
+    </linearGradient>
+    <linearGradient id="hot" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fd3ff" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#3ea2ff" stop-opacity="0.85"/>
+    </linearGradient>
+    <g id="petal">
+      <ellipse cx="0" cy="-100" rx="35" ry="38"/>
+    </g>
+  </defs>
+
+  <rect width="1280" height="520" fill="url(#bg)"/>
+  <circle cx="930" cy="260" r="260" fill="url(#glow)"/>
+
+  <!-- copy -->
+  <text x="88" y="200" fill="#ffffff" font-size="88" font-weight="700" letter-spacing="-2">Bloom</text>
+  <text x="92" y="252" fill="#cfe6ff" font-size="28" font-weight="500">Drag a file, tap a key, drop it on a petal.</text>
+  <text x="92" y="300" fill="#9cc3ea" font-size="21">Convert · crop · compress · inspect · share</text>
+  <text x="92" y="330" fill="#9cc3ea" font-size="21">Offline, native, free. A glass wheel at the pointer.</text>
+
+  <g transform="translate(92 382)" font-size="17" font-weight="600">
+    <rect width="118" height="40" rx="10" fill="#ffffff" fill-opacity="0.12" stroke="#ffffff" stroke-opacity="0.25"/>
+    <text x="59" y="26" fill="#ffffff" text-anchor="middle">⇧ Convert</text>
+    <rect x="132" width="104" height="40" rx="10" fill="#ffffff" fill-opacity="0.12" stroke="#ffffff" stroke-opacity="0.25"/>
+    <text x="184" y="26" fill="#ffffff" text-anchor="middle">⌘ Tools</text>
+    <rect x="250" width="120" height="40" rx="10" fill="#ffffff" fill-opacity="0.12" stroke="#ffffff" stroke-opacity="0.25"/>
+    <text x="310" y="26" fill="#ffffff" text-anchor="middle">⌃ Actions</text>
+  </g>
+
+  <!-- wheel -->
+  <g transform="translate(930 260)">
+    <circle r="150" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.35" stroke-width="1.5"/>
+    <g fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.45" stroke-width="1.5">
+      <use href="#petal" transform="rotate(0)"/>
+      <use href="#petal" transform="rotate(45)" fill="url(#hot)"/>
+      <use href="#petal" transform="rotate(90)"/>
+      <use href="#petal" transform="rotate(135)"/>
+      <use href="#petal" transform="rotate(180)"/>
+      <use href="#petal" transform="rotate(225)"/>
+      <use href="#petal" transform="rotate(270)"/>
+      <use href="#petal" transform="rotate(315)"/>
+    </g>
+    <g fill="#ffffff" font-size="17" font-weight="700" text-anchor="middle">
+      <text x="0" y="-94">JPG</text>
+      <text x="71" y="-65" fill="#06223f">HEIC</text>
+      <text x="100" y="6">PNG</text>
+      <text x="71" y="77">PDF</text>
+      <text x="0" y="106">AVIF</text>
+      <text x="-71" y="77">TIFF</text>
+      <text x="-100" y="6">GIF</text>
+      <text x="-71" y="-65" font-size="15">DOCX</text>
+    </g>
+    <rect x="-62" y="-20" width="124" height="40" rx="20" fill="#0b1a33" fill-opacity="0.55" stroke="#ffffff" stroke-opacity="0.35"/>
+    <text x="0" y="6" fill="#ffffff" font-size="16" font-weight="600" text-anchor="middle">→ HEIC</text>
+    <!-- dragged file -->
+    <g transform="translate(118 -150) rotate(12)">
+      <rect width="62" height="78" rx="8" fill="#ffffff" fill-opacity="0.92"/>
+      <path d="M44 0 L62 18 L44 18 Z" fill="#b9d9f5"/>
+      <rect x="10" y="30" width="42" height="28" rx="4" fill="#7cc4ff"/>
+      <text x="31" y="72" fill="#14325c" font-size="11" font-weight="700" text-anchor="middle">.png</text>
+    </g>
+  </g>
+</svg>
