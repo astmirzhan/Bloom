@@ -1,8 +1,23 @@
+<div align="center">
+
+<img src="docs/banner.svg" alt="Bloom: a glass wheel of petals at the pointer; drop a file on a petal to convert it" width="100%" />
+
 # Bloom
 
-**Drag a file, tap a key, drop it on a petal.**
-Convert, crop, compress, inspect and share files on your Mac, offline, from a glass wheel that
-opens at the pointer.
+**Drag a file, tap a key, drop it on a petal.**<br/>
+Convert, crop, compress, inspect and share files on your Mac, offline, from a glass wheel that opens at the pointer.
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Swift-6-F05138?style=for-the-badge&logo=swift&logoColor=white" alt="Swift 6" />
+  <img src="https://img.shields.io/badge/SwiftUI_·_AppKit-native-0A84FF?style=for-the-badge&logo=apple&logoColor=white" alt="SwiftUI and AppKit" />
+  <img src="https://img.shields.io/badge/macOS-13+_·_Apple_silicon-111111?style=for-the-badge&logo=macos&logoColor=white" alt="macOS 13+ on Apple silicon" />
+  <img src="https://img.shields.io/badge/Network-none-2B6FB3?style=for-the-badge" alt="No network code" />
+  <img src="https://img.shields.io/badge/License-MIT-7CC4FF?style=for-the-badge" alt="MIT license" />
+</p>
+
+</div>
+
+---
 
 - **Free and open source** (MIT). No account, no trial, no in-app purchase.
 - **Nothing to allow.** The wheel works without Accessibility or Input Monitoring permission.
